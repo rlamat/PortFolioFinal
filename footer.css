@@ -1,0 +1,153 @@
+/*MISE EN FORME DU FOOTER*/ 
+/*CSS SEPARE POUR POUVOIR L'UTILISER A VOLONTE*/
+/*defaut : devoir copier le html a chaque fois...*/
+
+
+#tailleLogo{
+   width: 100px;
+}
+
+.centre{
+   text-align: center;
+}
+
+#couleurText{
+   color: whitesmoke
+}
+
+h5.description{
+   color: grey;
+}
+
+#bas-de-page{
+   overflow: hidden;
+   background-color: #292c2f;
+   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+   width: 100%;
+   text-align: left;
+   padding: 55px 50px;
+   margin-top: 80px;
+
+}
+
+.footer-distributed{
+
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+
+}
+
+.footer-distributed h5{
+ margin-top: 0px;
+ margin-bottom: 0px;
+ color:  #ffffff;
+ width: 300px;
+}
+ 
+.footer-distributed h5 span{
+ color:  #5383d3;
+ font-size: 1rem;
+}
+ 
+.footer-links{
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   align-items: flex-start;
+   color:  #ffffff;
+   padding: 0;
+}
+
+.footer-links a{
+ text-decoration: none;
+ color:  inherit;
+ margin-bottom:0.9em;
+
+}
+ 
+.footer-distributed #footer-company-name{
+ color:  #8f9296;
+ font-size: 14px;
+ font-weight: normal;
+}
+ 
+.footer-distributed .footer-container{
+   margin: 40px;
+
+}
+
+.footer-distributed .footer-container p{
+ color: #ffffff;
+ font-size: 0.9em;
+}
+ 
+.footer-distributed .footer-container p span{
+ display:block;
+ font-weight: normal;
+ font-size:14px;
+ line-height:2;
+}
+
+
+.footer-distributed .footer-company-about{
+ line-height: 20px;
+ color:  #92999f;
+ font-size: 13px;
+ font-weight: normal;
+ margin: 0;
+}
+
+ 
+
+ 
+.footer-distributed .footer-icons{
+   display: flex;
+   flex-direction: row ;
+}
+
+.socialmedia{
+   width: 2rem;
+   height: 2rem;
+   margin: 1rem;
+}
+
+#facebook:hover{
+   filter: invert(33%) sepia(13%) saturate(2614%) hue-rotate(183deg) brightness(94%) contrast(87%); /*Changer la couleur de l'image, fait avec un générateur*/
+}
+
+#twitter:hover{
+   filter: invert(50%) sepia(37%) saturate(5213%) hue-rotate(167deg) brightness(104%) contrast(101%);
+}
+
+#instagram:hover{
+   filter: invert(100%) ;
+}
+ 
+#fin-de-page p{
+   color: white;
+   font-size: 1em;
+}
+.partenaires{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+#fin-de-page .centre{
+   font-size: 0.7em;
+   color: rgb(165, 163, 163);
+} 
+
+@media (max-width: 1250px) {
+ 
+   .footer-distributed{
+
+      display: flex;
+      flex-direction: column;
+     
+     }
+}
